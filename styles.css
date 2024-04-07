@@ -52,34 +52,6 @@ nav {
     font-weight: bold;
 }
 
-.video-container-lx {
-    position: absolute;
-    width: 100%;
-    overflow: hidden;
-    z-index: -99;
-}
-
-.video-container-lx video {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-
-
-.video-container-mobile {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -100;
-    display: none; 
-}
-
-.video-container-mobile video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 @media screen and (max-width: 768px) {
     .menu {
         display: none;
@@ -108,17 +80,4 @@ nav {
         overflow: hidden;
     }
 
-    .video-container-lx {
-        display: none;
-    }
-
-    .video-container-mobile {
-        display: block;
-    }
-
-    .video-container-mobile video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
 }
