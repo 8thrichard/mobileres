@@ -1,5 +1,6 @@
 /* Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
 body {
     font-family: 'Arial', sans-serif;
@@ -57,6 +58,10 @@ nav {
 
 .hero {
     padding: 1em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .hero h1 {
@@ -66,13 +71,33 @@ nav {
     font-size: 3em;
 }
 
+#heroslogan{
+    text-decoration: underline;
+    color:#000;
+}
+
+#heromessage,p {
+    color:#62636f;
+    font-size: 1.15em;
+    text-wrap:  wrap;
+    line-height: 1.5em;  font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
 .hero button {
     color: white;
     background-color: #4559f6;
     padding: 1em 2.5em;
     border: none;
+    font-weight: bold;
 }
+
+#buttonnobold{
+    font-weight: normal;; 
+}
+
+
 
 /* Responsiveness */
 @media screen and (max-width: 768px) {
